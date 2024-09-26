@@ -2,5 +2,9 @@
   "extends": "./output/tsconfig.json",
   "include": ["src/**/*.ts"],
   "exclude": ["vite.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"],
-  "compilerOptions": { "rootDir": ".", "moduleResolution": "Bundler","module": "ESNext" }
+  "compilerOptions": {
+    "rootDir": ".",
+    "moduleResolution": "Bundler",
+    "module": "ESNext"
+  }
 }
